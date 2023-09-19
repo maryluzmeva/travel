@@ -1,0 +1,23 @@
+header {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.6)),url(/images/fivetowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20%;
+    color: white;
+    text-align: center;
+    padding: 200px;
+  }
+
+  h1 {
+    font-family:'Old Standard TT', serif;
+    font-size: 64px;
+  }
+  h2, h3 {
+    font-family:'Open Sans', sans-serif;
+  }
+
+  .grid-3-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
