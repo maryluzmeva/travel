@@ -18,6 +18,7 @@
       }
     ],
     "no-inline-styles": "off",
-    "disown-opener": "off"
+    "disown-opener": "off",
+    "axe/name-role-value": "off"
   }
 }
