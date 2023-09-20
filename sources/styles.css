@@ -5,24 +5,55 @@ body {
     max-width: 1400px;
     margin: 0 auto;
 }
+.text-center {
+  text-align: center;
+}
 
 .grid {
   display: grid;
   grid-gap: 64px;;
 }
 
+.img-responsive {
+  max-width: 100%;
+  display: block;
+}
+
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid-3-columns-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 100px 0;
+
+.card {
+  background: white;
+  margin: 30px 0;
 }
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+section.secondary {
+  background: #f8f8f8;
+}
+
 header {
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.6)),url(/images/fivetowers.jpg);
     background-repeat: no-repeat;
@@ -43,7 +74,7 @@ header {
   header h2 {
     font-family:'Open Sans', sans-serif;
     font-size: 40px;
-    font-weight:400px;
+    font-weight:400;
     line-height: 1.5;
     margin: 0;
   }
@@ -104,11 +135,6 @@ header {
     line-height: 1.5;
   }
 
-  .grid-3-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-  }
   footer {
     color: white;
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/images/burghalle.jpg);
@@ -164,5 +190,9 @@ header {
     }
     .grid {
       grid-template-columns: 1fr;
+      grid-gap: 32px;
+    }
+    section {
+      padding: 30px;
     }
   }
