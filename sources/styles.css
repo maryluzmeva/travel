@@ -59,8 +59,28 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
   }
+  footer {
+    color: white;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/images/burghalle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 70%;
+    padding: 100px 0;
+  }
+  footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  footer a {
+    text-decoration: none;
+  }
 
-  @media (max-width: 900px) {
+  footer ul {
+    list-style: none;
+    line-height: 1.5;
+  }
+  @media (max-width: 960px) {
     header {
       padding:60px 0;
     }
