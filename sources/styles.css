@@ -30,10 +30,22 @@ body {
 .grid-3-columns-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.instagram-embeds {
+  margin: 30px 0;
+}
 
 .card {
   background: white;
   margin: 30px 0;
+}
+
+.card-header.grid {
+  grid-gap: 0;
 }
 
 .card-body {
@@ -42,6 +54,20 @@ body {
 
 .card-footer {
   padding: 0 30px 30px;
+}
+
+.btn {
+  display: block;
+  color:#f8f8f8;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background: black;
+  text-decoration: none;
 }
 
 section {
@@ -127,12 +153,23 @@ header {
     margin:0;
   }
 
+  main h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    color: #272044;
+    margin: 0;
+
+  }
+
   main p {
     font-style: normal;
     font-weight: 400;
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    color:#272044;
+    opacity: 0.7;
   }
 
   footer {
@@ -194,5 +231,11 @@ header {
     }
     section {
       padding: 30px;
+    }
+    card-header img {
+      display: none;
+    }
+    .embed {
+      aspect-ratio: 16/9;
     }
   }
