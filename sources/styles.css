@@ -82,14 +82,15 @@ header {
     padding: 200px 0;
   }
 
-  header h1 {
+header h1 {
     font-family:'Old Standard TT', serif;
     font-size: 96px;
     font-weight:700px;
     line-height: 1;
     margin: 30px 0;
   }
-  header h2 {
+
+header h2 {
     font-family:'Open Sans', sans-serif;
     font-size: 40px;
     font-weight:400;
@@ -97,7 +98,7 @@ header {
     margin: 0;
   }
 
-  header h3 {
+header h3 {
     font-family:'Open Sans', sans-serif;
     font-size: 24px;
     font-weight:900px;
@@ -106,7 +107,7 @@ header {
     margin: 0;
   }
 
-  header a {
+header a {
     font-family:'Open Sans', sans-serif;
     font-size: 14px;
     font-weight:700px;
@@ -121,11 +122,11 @@ header {
     margin-top: 32px;
   }
 
-  main {
+main {
     background-color: white;
   }
 
-  main h2 {
+main h2 {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
@@ -137,7 +138,7 @@ header {
     margin: 0;
   }
 
-  main h3 {
+main h3 {
     font-weight: 700;
     font-family:'Old Standard TT', serif;
     font-size: 35px;
@@ -145,7 +146,7 @@ header {
     margin:0;
   }
 
-  main h4 {
+main h4 {
     font-weight: 700;
     font-size: 40px;
     line-height: 1;
@@ -153,15 +154,15 @@ header {
     margin: 0;
   }
 
-  main h5 {
+main h5 {
     font-weight: 700;
-    font-size: 13px;
+    font-size: 18px;
     margin: 0;
     line-height: 1;
     color: #272044;
   }
 
-  main p {
+main p {
     font-style: normal;
     font-weight: 400;
     font-family:'Open Sans', sans-serif;
@@ -171,28 +172,31 @@ header {
     opacity: 0.7;
   }
 
-  footer {
+footer {
     color: white;
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/images/burghalle.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 70%;
   }
-  footer h3 {
+
+footer h3 {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     font-family:'Open Sans', sans-serif;
-  }
+}
 
-  footer h4 {
+footer h4 {
     font-family:'Open Sans', sans-serif;
   }
-  footer a {
+  
+footer a {
     color:white;
     opacity: 0.7;
   }
-  footer p {
+
+footer p {
     font-weight: 400;
     font-size: 16px;
     opacity: 0.7;
@@ -200,18 +204,18 @@ header {
     font-family:'Old Standard TT', serif;
   }
 
-  footer ul {
+footer ul {
     padding: 0;
   }
 
-  footer li {
+footer li {
     list-style: none;
     line-height: 1.5;
     margin: 0;
     padding: 0;
     font-family: 'Old Standard TT', serif;
   }
-  @media (max-width: 960px) {
+@media (max-width: 960px) {
     header {
       padding:60px 0;
     }
@@ -233,8 +237,5 @@ header {
     }
     card-header img {
       display: none;
-    }
-    .embed {
-      aspect-ratio: 16/9;
     }
   }
